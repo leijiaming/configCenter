@@ -11,7 +11,7 @@ spring:
     username: guest
     password: guest
 server:
-  port: 9096
+  port: 9097
 feign:
   hystrix:
     enabled: true
