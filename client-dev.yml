@@ -5,19 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 975109
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-  
 server:
   port: 9096
 feign:
   hystrix:
     enabled: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
+
