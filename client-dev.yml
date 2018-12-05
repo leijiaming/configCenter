@@ -10,6 +10,10 @@ spring:
     port: 5672
     username: guest
     password: guest
+  cloud:
+    bus:
+      trace:
+        enabled:true
 server:
   port: 9097
 feign:
