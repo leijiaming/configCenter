@@ -9,6 +9,7 @@ spring:
     bus:
       trace:
         enabled: true
+      enabled: true
 server:
   port: 9097
 feign:
