@@ -5,19 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 975109
-  cloud:
-    bus:
-      trace:
-        enabled: true
-      enabled: true
 server:
   port: 9097
 feign:
   hystrix:
     enabled: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
 
