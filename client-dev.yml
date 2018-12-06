@@ -5,8 +5,6 @@ spring:
     url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 975109
-server:
-  port: 9097
 feign:
   hystrix:
     enabled: true
