@@ -1,6 +1,6 @@
 spring:
   application:
-    name: client-lfh01
+    name: client-lfh01----------------------
   datasource:
     url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8
     username: root
