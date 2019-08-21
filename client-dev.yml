@@ -1,7 +1,8 @@
-datasource:
-    url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8
-    username: root
-    password: 975109
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/cloud?useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: 975109
 feign:
   hystrix:
     enabled: true
